@@ -1,0 +1,394 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+li, a {
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.topbar {
+    background-color: #F4DDEE;
+    padding: 10px 12%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+
+    /* position: fixed; */
+}
+
+.topbar a:hover {
+    text-decoration: underline;
+    transition: 0.9;
+}
+
+.log_sign li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+.log_sign a {
+    text-decoration: none;
+    margin: 0x 10px;
+    color: black;
+}
+
+.nav {
+    display: inline-block;
+}
+
+
+.logo_search {
+    padding: 15px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 150px;
+    height: 60px;
+}
+
+.search input {
+    height: 45px;
+    width: 250px;
+
+    margin-right: 0px;
+    border: 1px solid rgb(209, 199, 199);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+    ;
+}
+
+.search_btn {
+    margin-left: 0px;
+    height: 45px;
+    width: 35px;
+    background-color: #FFFFFF;
+    border: 1px solid rgb(209, 199, 199);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+    ;
+}
+
+.search_wish_cart li {
+    display: inline-block;
+    margin: 5px 20px;
+}
+
+#Top_search {
+    background-color: rgb(250, 249, 243);
+    position: fixed;
+    width: 300px;
+    box-shadow: rgba(red, 250, 100, 0.6);
+    border-radius: 5px;
+    padding: 20px;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    display: none;
+
+}
+
+#Top_search a {
+    background-color: rosybrown;
+    margin: 5px;
+
+}
+
+#cart {
+    text-align: center;
+    width: 22%;
+    position: fixed;
+    line-height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    border-radius: 10px;
+    display: none;
+}
+
+#cart button {
+    background-color: white;
+    padding: 5px 20px;
+    color: white;
+    width: 90%;
+    border-radius: 8px;
+    color: black;
+}
+
+#cart button:hover {
+    color: #FF66B9;
+    background-color: #383E47;
+}
+
+
+
+
+
+
+
+.navlist {
+    background-color: #383E47;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 10%;
+    width: 100%;
+}
+
+.navlist a:hover {
+    text-decoration: underline;
+
+}
+
+.navlist a {
+    margin: 10px;
+    color: white;
+
+}
+
+.makeup {
+    display: flex;
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    padding-left: 10%;
+    width: 100%;
+    font-size: 12px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+    ;
+    display: none;
+}
+
+.makeup div {
+    margin: 10px;
+    color: black;
+    line-height: 30px;
+
+}
+
+.makeup div a {
+    text-decoration: none;
+}
+
+.color-pink {
+    color: #FF66B9;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#kits_combos {
+    width: 11.5%;
+    margin-left: 32.5%;
+    background-color: white;
+    line-height: 25px;
+    display: block;
+    font-size: 15px;
+    padding: 10px;
+    position: absolute;
+    display: none;
+}
+
+#kits_combos p a {
+    text-decoration: none;
+}
+
+
+.home_product {
+
+    padding: 20px 10% 30px 10%;
+
+}
+
+.home_product p a {
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+    /* margin:10px; */
+}
+
+
+
+.imgwish {
+    width: 80%;
+    height: 100px;
+}
+
+.wishname {
+    font-weight: bold;
+    font-size: 12px;
+    margin: 5px;
+
+}
+
+.rmbtn {
+    background-color: white;
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.rmbtn:hover {
+    background-color: #383E47;
+    color: rgb(235, 32, 66);
+
+}
+
+.wishtocart {
+    background-color: #383E47;
+    color: rgb(235, 32, 66);
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+
+/* login */
+#loginn {
+    margin-left: 70%;
+    background-color: white;
+    position: absolute;
+    width: 20%;
+    padding: 15px 20px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+    ;
+    display: none;
+}
+
+#myform {
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+#myform:hover {
+    background-color: rgb(80, 65, 65);
+    color: rgb(252, 29, 29);
+}
+
+#account {
+    background-color: rgb(80, 65, 65);
+    color: rgb(252, 29, 29);
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* login */
+
+.font10 {
+    font-size: 10px;
+}
+
+.font15 {
+    font-size: 15px;
+}
+
+#CUSTOMER {
+    text-decoration: underline;
+    font-weight: bold;
+    display: inline-block
+}
+
+.cutt {
+    background-color: white;
+    font-weight: bold;
+    border-color: white;
+    margin-left: 30%;
+}
+
+#marg_top {
+    margin-top: 20px;
+}
+
+.jis-edit {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.color--red {
+    color: red;
+}
+
+.my__mail {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+#jia--edit {
+    background-color: #F7F7F7;
+    width: 100%
+}
+
+#wishiconka {
+    font-size: 35px;
+    margin: 0px;
+    padding: 0px"
+
+}
+
+.font29 {
+    font-size: 29px;
+}
+
+#hottyy {
+    background-color: rgb(235, 101, 124);
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 8px;
+}
+
+#samesame {
+    display: inline-block;
+}
+
+#arrowe {
+    display: inline-block;
+    margin: 0px 10px"
+
+}
+
+#WISHLIST {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#wishkitable {
+
+    background-color: #F7F7F7;
+    height: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#width15 {
+    width: 15%;
+}
+
+#width30 {
+    width: 30%;
+}
+
+#mytable {
+    width: 80%;
+    margin: auto;
+}

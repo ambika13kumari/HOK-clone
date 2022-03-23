@@ -1,0 +1,191 @@
+/* div {
+/* border: 1px solid black; */
+/* } */
+.b1 {
+    display: flex;
+    /* grid-template-columns: 50% 30%; */
+    /* background-color: burlywood; */
+    /* height: 800px; */
+    /* border: 1px solid black; */
+    justify-content: space-between;
+}
+
+.b2 {
+    /* border: 1px solid black; */
+    width: 50%;
+}
+
+.textc {
+    text-align: center;
+}
+
+.textl {
+    text-align: left;
+    padding-left: 15px;
+}
+
+.textr {
+    text-align: right;
+    padding-top: 22px;
+    padding-right: 15px;
+}
+
+img {
+    margin-top: 50px;
+    height: 70px;
+}
+
+.boxinr {
+    width: 70%;
+    margin: auto auto auto 25%;
+}
+
+.biginp {
+    width: 95%;
+    height: 40px;
+    border-radius: 4px;
+    /* margin: 5px; */
+}
+
+.inpname {
+    width: 45%;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.inppin {
+    width: 29%;
+    height: 40px;
+    border-radius: 4px;
+}
+
+input {
+    margin: 5px;
+}
+
+.dwnbtn {
+    text-align: right;
+
+}
+
+.dwnreturn {
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+
+
+hr {
+    color: black;
+    height: 1px;
+    background-color: black;
+}
+
+#rightbox1 {
+    background-color: #fcf7f7;
+}
+
+.boxinl {
+    width: 70%;
+    margin: auto 25% auto auto;
+}
+
+#giftinp {
+    width: 65%;
+    height: 35px;
+}
+
+#b2rcoupon {
+    width: 75%;
+    height: 35px;
+    border-radius: 4px;
+}
+
+#b2rbtn {
+    width: 15%;
+    height: 35px;
+    border-radius: 4px;
+}
+
+#boxright>div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#left_div {
+    padding: 70px 20px 50px 100px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#main__box {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.marg_auto {
+    margin: auto
+}
+
+.for_none {
+    text-decoration: none;
+}
+
+#for_myinfo {
+    display: grid;
+    ;
+    border: 1px solid rgb(216, 209, 209);
+    padding: 0px 10px;
+    grid-template-columns: 10% 80% 10%;
+    margin-top: 30px;
+}
+
+#ship_mtd {
+    text-align: left;
+}
+
+#for_hereis {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(216, 209, 209);
+    padding: 0px 10px;
+}
+
+#bigO {
+    background-color: rgb(65, 65, 245);
+    padding: 1px;
+    color: white;
+    border-radius: 100%;
+}
+
+.for_rutn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.continueto {
+    background-color: #197BBD;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#rightbox1 {
+    width: 100%;
+}
+
+#bodx {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#dekho2 {
+    font-size: 20px;
+    font-weight: bold;
+}

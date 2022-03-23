@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Wishlist - Hok Makeup</title>
+    <link rel="shortcut icon" type="image" href="C:\Users\Ankit Mishra\Downloads\logo.png">
+    <link rel="stylesheet" href="./styles/hokwish.css">
+</head>
+
+<body>
+
+
+
+    <div class="topbar">
+        <div class="free600">FREE SHIPPING ON ORDERS ABOVE RS 600/-</div>
+        <div class="log_sign">
+            <ul class="nav">
+                <li><a href="track.html">Track Order</a></li>
+                <li class="font10"> <i class='fas font15'>&#xf406;</i> </li>
+                <li id="clicklog">Login</li>
+                <li>or</li>
+                <li> <a href="account.html">Create an account</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- login -->
+
+    <div id="loginn">
+        <p id="CUSTOMER">CUSTOMER LOGIN</p>
+        <button class="cutt" id="cut">X</button> <br>
+        <hr>
+        <p id="marg_top">If you are already registered, please log in.</p> <br>
+
+        <lable class="jis-edit">Email<sup class="color--red">*</sup></lable> <br> <br>
+        <input type="email" placeholder="Email" class="my__mail" id="email"><br> <br>
+
+        <lable class="jis-edit">Password<sup class="color--red">*</sup></lable> <br> <br>
+        <input type="password" placeholder="Password" class="my__mail" id="password"><br> <br>
+
+        <p>Forgot your password?</p> <br>
+
+        <button id="myform" onclick="loggin(event)">LOGIN</button>
+
+        <br> <br>
+
+        <div id="jia--edit">
+
+            <p>Create your account and enjoy a new shopping experience.</p> <br>
+
+            <a href="account.html"><button id="account">CREATE A NEW ACCOUNT</button></a> <br>
+
+        </div>
+
+
+    </div>
+    <!-- login end -->
+
+
+
+    <div class="logo_search">
+
+        <div class="logo">
+            <a href="index.html"><img
+                    src="https://cdn.shopify.com/s/files/1/1743/7443/files/website_logo.png?v=1609240506"
+                    alt="There could be logo"></a>
+        </div>
+
+        <div class="search">
+            <ul class="search_wish_cart">
+
+                <li> <input type="text" placeholder="search for products & brands etc," id="search_input">
+                    <a href="#"><button class="search_btn"><i class="fas fa-search"></button></i></a>
+                    <div id="Top_search" class="hide_search">
+                        <p>TRENDING</p>
+                        <a href="new_arrival.html">New arrival</a>
+                        <a href="#">Makeup Kit</a>
+                        <a href="#">Make Revolution</a>
+                        <a href="#">Milani</a>
+                        <a href="#">L.A. Girl</a>
+                    </div>
+
+                </li>
+
+                <li><a href="hokwish.html" id="wishiconka"> &#9825; </a> </li>
+
+                <li><a href="#"> <i style="font-size: 29px;" class="fa" id="cart_icon">&#xf07a;</i> </a></li>
+
+                <div id="cart">
+                    <p></p>
+                    <a href="hokcart.html"><button>View Cart</button></a>
+                </div>
+
+            </ul>
+
+        </div>
+    </div>
+
+
+    <div class="navlist">
+
+        <a href="new_arrival.html">NEW ARRIVALS</a>
+
+        <a href="#" id="make_up">MAKE UP</a>
+        <a href="#" id="for_skin">SKIN</a>
+        <a href="brands.html">BRANDS</a>
+        <a href="#" id="kits&combos">KITS&COMBOS</a>
+        <a href="offers.html">OFFERS <sup id="hottyy">HOT</sup></a>
+        <a href="#">TUTORIALS</a>
+
+    </div>
+    <div class="makeup">
+        <div>
+            <p><a href="#" class="color-pink">Eyes</a></p>
+            <p><a href="#">EyeBrow Enhancer</a></p>
+            <p><a href="#">Eye liner</a></p>
+            <p><a href="#">Eye primer</a></p>
+            <p><a href="#">Eye shadow</a></p>
+            <p><a href="#">False eyelashes</a></p>
+            <p><a href="#">Kajal</a></p>
+            <p><a href="#">Mascara</a></p>
+        </div>
+        <div>
+            <p><a href="#" class="color-pink">Face</a></p>
+            <p><a href="#">Blush</a></p>
+            <p><a href="#">B.B / C.C cream</a></p>
+            <p><a href="#">Bronzer</a></p>
+            <p><a href="#">Compact</a></p>
+            <p><a href="#">Concealer</a></p>
+            <p><a href="#">Contour</a></p>
+            <p><a href="#">Foundation</a></p>
+            <p><a href="#">Highlighter</a></p>
+            <p><a href="#">Loose power</a></p>
+            <p><a href="#">Primer</a></p>
+            <p><a href="#">Makeup remover</a></p>
+            <p><a href="#">Setting Spray</a></p>
+        </div>
+        <div>
+            <p><a href="#" class="color-pink">Lips</a></p>
+            <p><a href="#">Lip Balm</a></p>
+            <p><a href="#">Lip Gloss</a></p>
+            <p><a href="#">Lip liner</a></p>
+            <p><a href="#">Lipstick</a></p>
+            <p><a href="#">Liquid Lipstick</a></p>
+
+        </div>
+        <div>
+            <p><a href="#" class="color-pink">Nails</a></p>
+            <p><a href="#">Nail Polish</a></p>
+        </div>
+        <div>
+            <p><a href="#" class="color-pink">Tools & Brushes</a></p>
+            <p><a href="#">Brush set</a></p>
+            <p><a href="#">Face brush</a></p>
+            <p><a href="#">Eye brush</a></p>
+            <p><a href="#">Lip brush</a></p>
+            <p><a href="#">Sponges and Applicators</a></p>
+        </div>
+        <div>
+            <p><a href="#" class="color-pink">Kits</a></p>
+            <p><a href="#">Eye Palettes</a></p>
+            <p><a href="#">Face palettes</a></p>
+        </div>
+    </div>
+
+    <div class="makeup">
+        <div>
+            <p><a href="#" class="color-pink">Face</a></p>
+            <p><a href="#">Cleanser</a></p>
+            <p><a href="#">cream</a></p>
+            <p><a href="#">Face mask</a></p>
+            <p><a href="#">Serum & Oil</a></p>
+            <p><a href="#">Face Wash</a></p>
+            <p><a href="#">Facial Mist</a></p>
+            <p><a href="#">Facial Wipes</a></p>
+            <p><a href="#">Gel</a></p>
+            <p><a href="#">Scrub</a></p>
+            <p><a href="#">Moisturizer</a></p>
+        </div>
+        <div>
+            <p><a href="#" class="color-pink">Eyes</a></p>
+            <p><a href="#">Eye Cream</a></p>
+            <p><a href="#">Eye Patch</a></p>
+        </div>
+        <div>
+            <p><a href="#" class="color-pink">Lip Care</a></p>
+            <p><a href="#">Lip Balm</a></p>
+            <p><a href="#">Petrolium Jelly</a></p>
+        </div>
+        <div>
+            <p><a href="#" class="color-pink">Bath & Body</a></p>
+            <p><a href="#">Shower Gel</a></p>
+            <p><a href="#">Foot Scrub</a></p>
+            <p><a href="#">Body Oil</a></p>
+        </div>
+        <div>
+            <p><a href="#" class="color-pink">Hair</a></p>
+            <p><a href="#">Hair Masque</a></p>
+            <p><a href="#">Hair Gel</a></p>
+            <p><a href="#">Shampoo</a></p>
+        </div>
+    </div>
+
+    <div id="kits_combos">
+        <p><a href="#">Combos</a></p>
+        <p><a href="#">Basic KIts</a></p>
+        <p><a href="#">Customisable Kits - </br> Basic</a></p>
+        <p><a href="#">Customisable Kits - </br> Professional</a></p>
+    </div>
+
+
+    <div class="home_product">
+        <p id="samesame"><a href="index.html">Home</a></p>
+        <p id="arrowe"> > </p>
+        <p id="samesame"><a href="hokcart.html">Shopping Cart</a></p> <br>
+        <h2 id="WISHLIST">WISHLIST</h2>
+
+    </div>
+
+    <table id="mytable">
+        <thead>
+            <th>
+                <tr id="wishkitable">
+                    <td id="width15">IMAGE</td>
+                    <td id="width30">PRODUCT NAME</td>
+                    <td>UNIT PRICE</td>
+                    <td>REMOVE</td>
+                    <td>ADD TO CART</td>
+                </tr>
+            </th>
+        </thead>
+
+    </table>
+
+</body>
+
+
+
+
+
+<script src="./scripts/hokwish.js">
+
+
+</script>
+
+</html>

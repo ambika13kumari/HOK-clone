@@ -1,0 +1,469 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.topbar {
+    background-color: #F4DDEE;
+    padding: 10px 12%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+
+    /* position: fixed; */
+}
+
+.topbar a:hover {
+    text-decoration: underline;
+    transition: 0.9;
+}
+
+.log_sign li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+.log_sign a {
+    text-decoration: none;
+    margin: 0x 10px;
+    color: black;
+}
+
+.nav {
+    display: inline-block;
+}
+
+
+.logo_search {
+    padding: 15px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 150px;
+    height: 60px;
+}
+
+.search input {
+    height: 45px;
+    width: 250px;
+
+    margin-right: 0px;
+    border: 1px solid rgb(209, 199, 199);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+    ;
+}
+
+.search_btn {
+    margin-left: 0px;
+    height: 45px;
+    width: 35px;
+    background-color: #FFFFFF;
+    border: 1px solid rgb(209, 199, 199);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+    ;
+}
+
+.search_wish_cart li {
+    display: inline-block;
+    margin: 5px 20px;
+}
+
+#Top_search {
+    background-color: rgb(250, 249, 243);
+    position: fixed;
+    width: 300px;
+    box-shadow: rgba(red, 250, 100, 0.6);
+    border-radius: 5px;
+    padding: 20px;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    display: none;
+
+}
+
+#Top_search a {
+    background-color: rosybrown;
+    margin: 5px;
+
+}
+
+#cart {
+    text-align: center;
+    width: 25%;
+    position: fixed;
+    line-height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    border-radius: 10px;
+    display: none;
+}
+
+#cart button {
+    background-color: #FF66B9;
+    padding: 5px 20px;
+    color: white;
+    width: 90%;
+    border-radius: 8px;
+}
+
+
+
+
+.makeup {
+    display: flex;
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    padding-left: 10%;
+    width: 100%;
+    font-size: 12px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+    ;
+    display: none;
+}
+
+.makeup div {
+    margin: 10px;
+    color: black;
+    line-height: 30px;
+
+}
+
+.makeup div a {
+    text-decoration: none;
+}
+
+.color-pink {
+    color: #FF66B9;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#kits_combos {
+    width: 11.5%;
+    margin-left: 32.5%;
+    background-color: white;
+    line-height: 25px;
+    display: block;
+    font-size: 15px;
+    padding: 10px;
+    position: absolute;
+    display: none;
+}
+
+#kits_combos p a {
+    text-decoration: none;
+}
+
+#middle {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
+
+.navlist {
+    background-color: #383E47;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 10%;
+    width: 100%;
+}
+
+.navlist a:hover {
+    text-decoration: underline;
+
+}
+
+.navlist a {
+    margin: 10px;
+    color: white;
+
+}
+
+/* head-section-end */
+
+/* offer section */
+
+.offer-home {
+    color: black;
+    display: inline-block;
+    margin: 0 0.5% 0 10.5%;
+    text-decoration: none;
+    font-size: medium;
+}
+
+.o-name {
+    color: black;
+    display: inline-block;
+    font-size: medium;
+}
+
+#offer-sec {
+    margin: 1% 1% 3% 10.5%;
+    font-family: Montserrat, sans-serif;
+}
+
+#bottom-acc {
+    margin: 0 0.5% 0 10.5%;
+}
+
+.new-account {
+    height: 28px;
+    padding: 10px 20px;
+    background-color: #F7F7F7;
+    width: 32%;
+    border-radius: 5px;
+    padding-bottom: 40px;
+
+}
+
+.container>label {
+    font-weight: bold;
+    font-size: small;
+    font-family: Montserrat, sans-serif;
+    margin: 5px 0;
+}
+
+.container>input {
+    width: 28%;
+    height: 34px;
+    margin: 1% 0;
+    border-radius: 5px;
+}
+
+.container>label>em {
+    color: red;
+}
+
+/* offer section end */
+
+/* bottom-part */
+
+#d1 {
+    /* height: 200px; */
+    background-color: #ecf0f1;
+}
+
+#d2 {
+    /* height: 400px; */
+    background-color: #2d3436;
+    color: white;
+}
+
+/* .d2 {
+                height: 300px;
+    
+            } */
+.h2 {
+    text-align: center;
+    margin: 20px;
+    padding-top: 20px;
+
+}
+
+.d3 {
+    /* border: 1px solid black; */
+    /* height: 250px; */
+    width: 70%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.d4 {
+    display: inline-block;
+    width: 20%;
+    /* height: 250px; */
+    /* border: 1px solid black; */
+    vertical-align: text-top;
+    line-height: 30px;
+}
+
+#subscribe {
+    width: 38%;
+}
+
+.inp1 {
+    height: 40px;
+    width: 60%;
+    border-radius: 3px;
+}
+
+.inp2 {
+    height: 40px;
+    width: 30%;
+    background-color: pink;
+    border-radius: 3px;
+
+}
+
+.img100 {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+}
+
+#last {
+    margin-left: 15%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.40) 120%) #989898;
+    background-blend-mode: multiply, multiply;
+}
+
+#l {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.40) 120%) #989898;
+    background-blend-mode: multiply, multiply;
+}
+
+span a {
+    text-decoration: none;
+    color: white
+}
+
+span a:hover {
+    text-decoration: underline;
+    color: #FF66B9;
+}
+
+/* bottom-end */
+
+#creatbtn {
+    background-color: rgb(53, 47, 47);
+    width: 18%;
+    height: 38px;
+    padding: 2px;
+    color: rgb(214, 9, 77);
+    border-radius: 5px;
+}
+
+
+
+/* login */
+#loginn {
+    margin-left: 70%;
+    background-color: white;
+    position: absolute;
+    width: 20%;
+    padding: 15px 20px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+    ;
+    display: none;
+}
+
+#myform {
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+#myform:hover {
+    background-color: rgb(80, 65, 65);
+    color: rgb(252, 29, 29);
+}
+
+#account {
+    background-color: rgb(80, 65, 65);
+    color: rgb(252, 29, 29);
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* login */
+
+#CUSTOMER--LOGIN {
+
+    text-decoration: underline;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.X--cut {
+    background-color: white;
+    font-weight: bold;
+    border-color: white;
+    margin-left: 30%;
+}
+
+#already--text {
+    margin-top: 20px;
+}
+
+.Email--hai {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.color---red {
+    color: red;
+}
+
+.ankit--- {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+#HOT-- {
+    background-color: rgb(235, 101, 124);
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 8px;
+}
+
+#createyourss {
+    background-color: #F7F7F7;
+    width: 100%
+}
+
+#hokwish____ {
+    font-size: 35px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#fa___ce {
+    font-size: 24px;
+    color: white;
+    margin: 5px 10px
+}
+
+.font10 {
+    font-size: 10px;
+}
+
+.font15 {
+    font-size: 15px;
+}
+
+#hrhr {
+    width: 70%;
+    margin: auto;
+}
