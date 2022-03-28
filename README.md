@@ -6,6 +6,8 @@
 - We used local storage for saving the details of the users , items stored in the cart , etcetera.
 - Also used sorting algorithms to display the items in a sorted way based on certain criteria.
 - Used the discount feature by applying the coupon in the checkout menu.
+- ![2021-11-13 (3)]![Screenshot (524)](https://user-images.githubusercontent.com/86556750/160476193-c010ac22-a84d-4695-9dee-0022695b6006.png)
+
 
 <br />
 
